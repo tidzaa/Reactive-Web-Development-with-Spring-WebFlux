@@ -8,7 +8,7 @@ public class Main {
 
         flowExample.flowDelivery(10000L, 20000L, 30000L, 40000L, 50000L, 600L, 700L, 800L, 900L, 1000L, 100);
 
-//nano seconds that this execution takes
+//nanoseconds that this execution takes
         long startTime = System.nanoTime();
         long endTime = System.nanoTime();
         long totalTime = endTime - startTime;
